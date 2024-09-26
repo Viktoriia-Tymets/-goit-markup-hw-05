@@ -646,6 +646,7 @@ pointer-events: none;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
 }
 
 .backdrop.is-open{
@@ -665,6 +666,7 @@ opacity: 1;
         border-radius: 4px;
 transform: translate(-50%,-50%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+padding: 72px 24px 24px 24px;
 }
 
 .backdrop:not(.is-open).modal{
@@ -685,7 +687,6 @@ font-family: "Roboto", sans-serif;
     margin-bottom: 16px;
    margin-left: auto;
    margin-right: auto;
-   padding-top: 72px;
 }
 
 .modal-close-icon{
@@ -730,7 +731,7 @@ top: 24px;
 }
 
 .modal-form-name-wrapper{
-    margin-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .modal-form-name{
@@ -824,6 +825,10 @@ font-family: "Roboto", sans-serif;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-email-wrapper{
+    margin-bottom: 8px;
+}
+
 .modal-form-email-label{
 font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -831,21 +836,25 @@ font-family: "Roboto", sans-serif;
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    display: block;
+    line-height: 1.17;
+    margin-bottom: 4px;
 }
 
 
 .modal-form-email{
-        height: 40px;
-        width: 100%;
-        border: 1px solid rgba(46, 47, 66, 0.4);
-        background-color: transparent;
-        padding-left: 38px;
-        outline: transparent;
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-radius: 4px;
+            height: 40px;
+            width: 100%;
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            background-color: transparent;
+            padding-left: 38px;
+            outline: transparent;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .icon-email{
-    padding: 3px 0px;
+    padding:3px 0px;
         width: 18px;
         height: 24px;
         position: absolute;
@@ -874,6 +883,7 @@ color: rgba(46, 47, 66, 0.4);
 background-color: transparent;
 padding: 8px 16px;
 outline: transparent;
+width: 100%;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
