@@ -737,9 +737,6 @@ top: 24px;
 
 }
 
-
-
-
 .modal-form-wrapper{
 margin-bottom: 8px;
 }
@@ -756,7 +753,7 @@ margin-bottom: 8px;
 
 }
 
-.modal-form-name:focus{
+.modal-form:focus{
     border-color: #4D5AE5;
 }
 
@@ -790,86 +787,6 @@ margin-bottom: 8px;
 
 }
 
-.modal-form-phone-wrapper{
-    margin-bottom: 8px;
-}
-
-.modal-form-phone-label{
-font-size: 12px;
-line-height: 1.17;
- letter-spacing: 0.04em;
- color:#8e8f99;
-    display: block;
-margin-bottom: 4px;}
-
-.modal-form-phone-input{
-    position: relative;
-}
-
-.modal-form-phone{
-width: 100%;
-height: 40px;
-border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 4px;
-background-color: transparent;
-padding-left: 38px;
-outline: transparent;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-phone:focus{
-    border-color: #4D5AE5;}
-
-
-
-.icon-phone{
-    position: absolute;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-
-.modal-form-email-wrapper{
-    margin-bottom: 8px;
-}
-
-.modal-form-email-label{
-font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-    display: block;
-    margin-bottom: 4px;
-}
-
-
-.modal-form-email{
-        width: 100%;
-            height: 40px;
-            border: 1px solid rgba(46, 47, 66, 0.4);
-            border-radius: 4px;
-            background-color: transparent;
-            padding-left: 38px;
-            outline: transparent;
-            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .icon-email{
-    position: absolute;
-        left: 16px;
-        top: 50%;
-        transform: translateY(-50%);
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-    }
-    
-
-.modal-form-email:focus {
-    border-color: #4D5AE5;
-}
 
 .modal-form-comment{
   border: 1px solid rgba(46, 47, 66, 0.4);
