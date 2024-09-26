@@ -735,9 +735,7 @@ top: 24px;
 
 .modal-form-name{
         border-radius: 4px;
-        max-width: 360px;
-        height: 40px;
-    
+   height: 40px;
         width: 100%;
         border: 1px solid rgba(46, 47, 66, 0.4);
         background-color: transparent;
@@ -747,6 +745,9 @@ top: 24px;
 
 }
 
+.modal-form-name:focus{
+    border-color: #4D5AE5;
+}
 
 .modal-form-name-label{
     font-family: "Roboto", sans-serif;
@@ -793,12 +794,34 @@ font-family: "Roboto", sans-serif;
     line-height: 1.17;
     margin-bottom: 4px;}
 
+.modal-form-phone-input{
+    position: relative;
+}
 
 .modal-form-phone{
-    border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
-        width: 360px;
-        height: 40px;
+            height: 40px;
+            width: 100%;
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            background-color: transparent;
+            padding-left: 38px;
+            outline: transparent;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal-form-phone:focus{
+    border-color: #4D5AE5;}
+
+.icon-phone{
+    padding: 3px 0px;
+        width: 18px;
+        height: 24px;
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-email-label{
@@ -812,12 +835,31 @@ font-family: "Roboto", sans-serif;
 
 
 .modal-form-email{
-border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    width: 360px;
-    height: 40px;
-}
+        height: 40px;
+        width: 100%;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        background-color: transparent;
+        padding-left: 38px;
+        outline: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
+    .icon-email{
+    padding: 3px 0px;
+        width: 18px;
+        height: 24px;
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    
+
+.modal-form-email:focus {
+    border-color: #4D5AE5;
+}
 
 .modal-form-comment{
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -825,20 +867,54 @@ border-radius: 4px;
 width: 360px;
 height: 120px;  
 resize: none;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+background-color: transparent;
+padding: 8px 16px;
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-comment:focus{
+    border-color: #4D5AE5;
+}
 
 
 .modal-form-checkbox-wrapper{
 border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
+margin-bottom: 24px;
+}
+
+
+.modal-form-checkbox-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99;
+
+}
+
+.modal-form-customer-checkbox{
+height: 16px;
+    width: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+
 }
 
 
 .modal-form-submit-btn{
 border-radius: 4px;
 padding: 16px 32px;
-width: 169px;
+min-width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
@@ -853,5 +929,9 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         letter-spacing: 0.04em;
         text-align: center;
         color: #fff;
+        cursor: pointer;
+        border: none;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
