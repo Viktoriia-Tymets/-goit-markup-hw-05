@@ -737,11 +737,14 @@ top: 24px;
 
 }
 
-.modal-form-name-wrapper{
+
+
+
+.modal-form-wrapper{
 margin-bottom: 8px;
 }
 
-.modal-form-name{
+.modal-form{
         border-radius: 4px;
    height: 40px;
         width: 100%;
@@ -757,7 +760,7 @@ margin-bottom: 8px;
     border-color: #4D5AE5;
 }
 
-.modal-form-name-label{
+.modal-form-label{
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 12px;
@@ -769,12 +772,12 @@ margin-bottom: 8px;
         margin-bottom: 4px;
 }
 
-.modal-form-name-input{
+.modal-form-input{
     position: relative;
 }
 
 
-.modal-icon-person{
+.modal-icon{
     padding: 3px 0px;
         width: 18px;
         height: 24px;
