@@ -725,13 +725,20 @@ top: 24px;
      border: none; 
 }
 
+.modal-close-btn:focus{
+    fill: #ffffff;
+}
+.modal-close-btn:hover{
+    fill: #ffffff;
+}
+
 .icon-send{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .modal-form-name-wrapper{
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .modal-form-name{
@@ -879,7 +886,6 @@ resize: none;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-color: rgba(46, 47, 66, 0.4);
 background-color: transparent;
 padding: 8px 16px;
 outline: transparent;
@@ -920,6 +926,12 @@ height: 16px;
 
 }
 
+
+.modal-form-checkbox:checked + span{
+    background-color:#404bbf;
+    border: none;
+    fill:#F4F4FD;
+}
 
 .modal-form-submit-btn{
 border-radius: 4px;
