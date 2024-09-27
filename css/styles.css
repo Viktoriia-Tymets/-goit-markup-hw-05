@@ -869,7 +869,7 @@ height: 16px;
 }
 
 
-.checkbox:checked+.modal-form-checkbox>.modal-form-customer-checkbox {
+.modal-form-checkbox:checked + .modal-form-checkbox > .modal-form-customer-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;}
