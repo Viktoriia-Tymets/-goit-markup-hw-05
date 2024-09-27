@@ -773,6 +773,9 @@ margin-bottom: 8px;
     position: relative;
 }
 
+.modal-form:focus{
+    fill: #4D5AE5;
+}
 
 .modal-icon-person{
     padding: 3px 0px;
