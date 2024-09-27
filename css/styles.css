@@ -773,11 +773,11 @@ margin-bottom: 8px;
     position: relative;
 }
 
-.modal-form:focus{
+.modal-form:focus-within + .modal-icon{
     fill: #4D5AE5;
 }
 
-.modal-icon-person{
+.modal-icon{
     padding: 3px 0px;
         width: 18px;
         height: 24px;
@@ -790,16 +790,6 @@ margin-bottom: 8px;
 
 }
 
-.modal-icon{
-padding: 3px 0px;
-    width: 18px;
-    height: 24px;
-    position: absolute;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .modal-form-comment-wrapper{
     margin-bottom: 16px;
