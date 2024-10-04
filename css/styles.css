@@ -554,7 +554,7 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-footer{
-    margin-left: 80px;
+    margin-left:auto;
 }
 
 
@@ -629,6 +629,7 @@ background-color: transparent;
 
 .icon-send{
     margin-left: 16px;
+    fill: #fff;
 }
 
 
@@ -695,8 +696,7 @@ font-family: "Roboto", sans-serif;
 
 .modal-close-btn{
     border-radius: 100%;
-        fill: #e7e9fc;
-        stroke: rgba(0, 0, 0, 0.1);
+    fill: #2e2f42;
 position: absolute;
 top: 24px;
     right: 24px;
@@ -778,7 +778,6 @@ margin-bottom: 8px;
 }
 
 .modal-icon{
-    padding: 3px 0px;
         width: 18px;
         height: 24px;
         position: absolute;
@@ -801,8 +800,7 @@ margin-bottom: 8px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    padding-top: 8px;
-    padding-left: 16px;}
+}
 
 
 
@@ -829,8 +827,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .modal-form-checkbox-wrapper{
-border-radius: 2px;
-border: 1px solid rgba(46, 47, 66, 0.4);
 margin-bottom: 24px;
 }
 
@@ -857,7 +853,7 @@ height: 16px;
     align-items: center;
     justify-content: center;
     fill: transparent;
-
+margin-right: 8px;
 }
 
 
